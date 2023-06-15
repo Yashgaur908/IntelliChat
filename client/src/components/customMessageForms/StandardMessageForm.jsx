@@ -5,7 +5,6 @@ const StandardMessageForm = () => {
     const [message, setMessage] = useState("");
     const [attachment, setAttachment] = useState("");
     const [preview, setPreview] = useState("");
-    console.log("Ho")
     return (
         <div className='message-form-container'>
             {preview && (
