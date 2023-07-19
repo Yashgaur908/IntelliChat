@@ -27,7 +27,7 @@ const StandardMessageForm = () => {
                     <input className='message-form-input' type="text" value={message} onChange={handleChange} placeholder='send a message...'/>
                 </div>
                 <div className='message-form-icons'>
-                    <Dropzone 
+                    {/* <Dropzone 
                         acceptedFiles = ".jpg, .jpeg, .png" 
                         multiple = {false} 
                         noClick = {true} 
@@ -36,7 +36,7 @@ const StandardMessageForm = () => {
                             setPreview(URL.createObjectURL(acceptedFiles[0]))
                         }}
                     >
-                    </Dropzone>
+                    </Dropzone> */}
                 </div>
             </div>
         </div>
